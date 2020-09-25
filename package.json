@@ -1,0 +1,32 @@
+{
+  "name": "creepy-github",
+  "version": "1.0.0",
+  "description": "Its creepy github duh",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diarmuid-murphy/creepy-github.git"
+  },
+  "keywords": [
+    "creepy",
+    "github"
+  ],
+  "author": "Dermo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diarmuid-murphy/creepy-github/issues"
+  },
+  "homepage": "https://github.com/diarmuid-murphy/creepy-github#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.3.3",
+    "nodemon": "^2.0.4",
+    "play-sound": "^1.1.3"
+  }
+}
