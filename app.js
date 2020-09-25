@@ -29,7 +29,7 @@ inquirer.prompt([
 
 				createEventCount = createEvent.length;
 
-				fs.writeFile('issue_activity.json', JSON.stringify(createEvent, null, '\t'), (err) => {
+				fs.writeFile('issue_activity.log', JSON.stringify(createEvent, null, '\t'), (err) => {
 					if (err) throw err;
 
 					console.log('Issues logged');
